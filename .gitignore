@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+.python-version
+
+# Logs and runtime output
+logs/
+**/logs/
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Large local model/vendor assets
+docker/embedding/bge-large-zh-v1.5/
+docker/text-embeddings-inference/
+*.safetensors
+*.bin
+
+# Local service data
+docker/**/data/
